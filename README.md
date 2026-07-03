@@ -25,6 +25,10 @@ into software that quietly just works.
 - **[sj-youtube2file](https://github.com/yanguick/sj-youtube2file)** — A portable
   YouTube → file desktop GUI (yt-dlp + ffmpeg) with a modern themed UI and a first-run
   bootstrap that auto-fetches its own binaries. Pure-stdlib Python, clone-and-run.
+- **[wonky-metronome](https://github.com/yanguick/wonky-metronome)**
+  ([live demo](https://yanguick.github.io/wonky-metronome/)) — An installable metronome
+  PWA (React + TypeScript + Vite) that uses the **Web Audio API for sample-accurate
+  click scheduling**, avoiding the timing drift of `setTimeout`.
 - **Jang-bu** *(private)* — A privacy-first personal finance app: React 19 PWA +
   serverless Cloudflare Workers, bank sync via Plaid, AI receipt scanning with Google
   Gemini, and all financial data encrypted in the user's own Google Drive.
